@@ -66,7 +66,7 @@ export default function Home() {
             </p>
           )}
           <div className="mt-8">
-            <Link href={home.ctaHref} className="inline-flex items-center rounded-full bg-white/10 px-5 py-2.5 text-white/90 hover:bg-white/15 border border-white/15">
+            <Link href={home.ctaHref} className="inline-flex items-center rounded-full bg-[#57CC99]/20 px-5 py-2.5 text-white/95 hover:bg-[#80ED99]/25 border border-[#57CC99]/30 transition-all duration-150">
               {home.ctaText}
             </Link>
           </div>
