@@ -3,6 +3,80 @@
 
 @custom-variant dark (&:is(.dark *));
 
+:root {
+  --oxford-blue: #0b132bff;
+  --space-cadet: #1c2541ff;
+  --yinmn-blue: #3a506bff;
+  --verdigris: #5bc0beff;
+  --fluorescent-cyan: #6fffe9ff;
+  --radius: 0.625rem;
+  --background: var(--space-cadet);
+  --foreground: var(--oxford-blue);
+  --card: var(--space-cadet);
+  --card-foreground: var(--oxford-blue);
+  --popover: var(--space-cadet);
+  --popover-foreground: var(--oxford-blue);
+  --primary: var(--yinmn-blue);
+  --primary-foreground: var(--fluorescent-cyan);
+  --secondary: var(--verdigris);
+  --secondary-foreground: var(--oxford-blue);
+  --muted: var(--space-cadet);
+  --muted-foreground: var(--yinmn-blue);
+  --accent: var(--fluorescent-cyan);
+  --accent-foreground: var(--oxford-blue);
+  --destructive: var(--verdigris);
+  --border: var(--space-cadet);
+  --input: var(--space-cadet);
+  --ring: var(--yinmn-blue);
+  --chart-1: var(--verdigris);
+  --chart-2: var(--fluorescent-cyan);
+  --chart-3: var(--yinmn-blue);
+  --chart-4: var(--oxford-blue);
+  --chart-5: var(--space-cadet);
+  --sidebar: var(--space-cadet);
+  --sidebar-foreground: var(--oxford-blue);
+  --sidebar-primary: var(--yinmn-blue);
+  --sidebar-primary-foreground: var(--fluorescent-cyan);
+  --sidebar-accent: var(--fluorescent-cyan);
+  --sidebar-accent-foreground: var(--oxford-blue);
+  --sidebar-border: var(--space-cadet);
+  --sidebar-ring: var(--yinmn-blue);
+}
+
+.dark {
+  --background: var(--oxford-blue);
+  --foreground: var(--space-cadet);
+  --card: var(--yinmn-blue);
+  --card-foreground: var(--fluorescent-cyan);
+  --popover: var(--yinmn-blue);
+  --popover-foreground: var(--fluorescent-cyan);
+  --primary: var(--verdigris);
+  --primary-foreground: var(--oxford-blue);
+  --secondary: var(--fluorescent-cyan);
+  --secondary-foreground: var(--space-cadet);
+  --muted: var(--yinmn-blue);
+  --muted-foreground: var(--oxford-blue);
+  --accent: var(--fluorescent-cyan);
+  --accent-foreground: var(--space-cadet);
+  --destructive: var(--verdigris);
+  --border: var(--oxford-blue);
+  --input: var(--oxford-blue);
+  --ring: var(--yinmn-blue);
+  --chart-1: var(--fluorescent-cyan);
+  --chart-2: var(--verdigris);
+  --chart-3: var(--oxford-blue);
+  --chart-4: var(--space-cadet);
+  --chart-5: var(--yinmn-blue);
+  --sidebar: var(--yinmn-blue);
+  --sidebar-foreground: var(--fluorescent-cyan);
+  --sidebar-primary: var(--fluorescent-cyan);
+  --sidebar-primary-foreground: var(--oxford-blue);
+  --sidebar-accent: var(--fluorescent-cyan);
+  --sidebar-accent-foreground: var(--space-cadet);
+  --sidebar-border: var(--oxford-blue);
+  --sidebar-ring: var(--yinmn-blue);
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
