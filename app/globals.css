@@ -3,6 +3,10 @@
 
 @custom-variant dark (&:is(.dark *));
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --oxford-blue: #0b132bff;
   --space-cadet: #1c2541ff;
