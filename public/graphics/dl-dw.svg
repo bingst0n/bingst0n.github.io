@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
-  <rect width="100%" height="100%" fill="none"/>
-  <g fill="#ffffff" fill-opacity="0.25" stroke="#ffffff" stroke-opacity="0.25">
-    <text x="120" y="150" font-family="Georgia, 'Times New Roman', serif" font-size="120">∂L</text>
-    <line x1="80" y1="190" x2="320" y2="190" stroke-width="6" stroke-linecap="round"/>
-    <text x="110" y="300" font-family="Georgia, 'Times New Roman', serif" font-size="120">∂ω</text>
-  </g>
-</svg>

@@ -8,7 +8,7 @@ export default function Home() {
       {/* Decorative graphics */}
       <div className="pointer-events-none absolute inset-0 z-0">
         <Image
-          src="/graphics/trig-identity.svg"
+          src="/graphics/pythagoreanidentity.png"
           alt=""
           width={260}
           height={260}
@@ -16,7 +16,7 @@ export default function Home() {
           priority={false}
         />
         <Image
-          src="/graphics/dl-dw.svg"
+          src="/graphics/lossexpression.png"
           alt=""
           width={220}
           height={220}
@@ -24,7 +24,7 @@ export default function Home() {
           priority={false}
         />
         <Image
-          src="/graphics/treble-clef.svg"
+          src="/graphics/trebleclef.png"
           alt=""
           width={200}
           height={200}
@@ -32,7 +32,7 @@ export default function Home() {
           priority={false}
         />
         <Image
-          src="/graphics/bilingual-chinese.svg"
+          src="/graphics/bilingualism.png"
           alt=""
           width={240}
           height={240}
@@ -40,7 +40,7 @@ export default function Home() {
           priority={false}
         />
         <Image
-          src="/graphics/neural-network.svg"
+          src="/graphics/neuralnetwork.png"
           alt=""
           width={260}
           height={260}
