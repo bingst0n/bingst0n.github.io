@@ -32,7 +32,6 @@ export default function Home() {
               <Link href="/resume.pdf" className="btn">
                 Résumé
               </Link>
-              <span className="tag mono">NYC • Mandarin • G9</span>
             </div>
             <div className="slab"></div>
           </div>

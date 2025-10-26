@@ -40,16 +40,16 @@ export default function RootLayout({
         style={{backgroundColor: '#F7FBF8', color: '#0D1B1E'}}
       >
         <div className="relative min-h-screen">
-          <header className="sticky top-0 z-20 bg-[#F7FBF8]/95 backdrop-blur-sm border-b border-[#e8efe9]">
+          <header className="sticky top-0 z-20 bg-[#22577A] border-b border-[#1b4056]">
             <nav className="mx-auto max-w-[1100px] px-5 py-4 flex items-center justify-between">
-              <Link href="/" className="font-display font-extrabold text-xl tracking-tight text-[#22577A] hover:text-[#57CC99] transition-colors">
+              <Link href="/" className="font-display font-extrabold text-xl tracking-tight text-[#E9FFF3] hover:text-[#80ED99] transition-colors">
                 Harrison Green
               </Link>
               <div className="flex items-center gap-5 text-sm font-semibold">
-                <Link href="/about" className="text-[#0D1B1E]/70 hover:text-[#22577A] transition-colors">About</Link>
-                <Link href="/projects" className="text-[#0D1B1E]/70 hover:text-[#22577A] transition-colors">Projects</Link>
-                <Link href="/awards" className="text-[#0D1B1E]/70 hover:text-[#22577A] transition-colors">Awards</Link>
-                <a href="/resume.pdf" className="btn">Resume</a>
+                <Link href="/about" className="text-[#E9FFF3]/90 hover:text-[#80ED99] transition-colors">About</Link>
+                <Link href="/projects" className="text-[#E9FFF3]/90 hover:text-[#80ED99] transition-colors">Projects</Link>
+                <Link href="/awards" className="text-[#E9FFF3]/90 hover:text-[#80ED99] transition-colors">Awards</Link>
+                <a href="/resume.pdf" className="btn" style={{ borderColor: '#E9FFF3', color: '#E9FFF3' }}>Resume</a>
               </div>
             </nav>
           </header>
