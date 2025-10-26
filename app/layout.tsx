@@ -37,17 +37,19 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${bricolage.variable} ${inter.variable} ${ibmMono.variable} antialiased min-h-screen`}
-        style={{ backgroundColor: 'var(--tea-green)', color: 'var(--lapis-lazuli)' }}
+        style={{ backgroundColor: 'var(--paper)', color: 'var(--ink-strong)' }}
       >
         <div className="relative min-h-screen">
-          <header className="sticky top-0 z-20" style={{ backgroundColor: 'var(--verdigris)', borderBottom: '1px solid var(--lapis-lazuli)' }}>
-            <nav className="mx-auto max-w-[1100px] px-5 py-4 flex items-center justify-between">
-              <Link href="/" className="font-display font-extrabold text-xl tracking-tight transition-colors" style={{ color: 'var(--tea-green)' }}>
+          <header className="sticky top-0 z-20" style={{ backgroundColor: 'var(--paper)', borderBottom: '1px solid var(--border)' }}>
+            <nav className="mx-auto max-w-[1100px] px-5 py-4 flex items-center justify-between" aria-label="Primary">
+              <Link href="/" className="font-display font-extrabold text-xl tracking-tight transition-colors" style={{ color: 'var(--ink-strong)' }}>
                 Harrison Green
               </Link>
               <div className="flex items-center gap-5 text-sm font-semibold">
-                <Link href="/about" className="transition-colors" style={{ color: 'color-mix(in srgb, var(--tea-green) 92%, transparent)' }}>About</Link>
-                <Link href="/projects-skills" className="transition-colors" style={{ color: 'color-mix(in srgb, var(--tea-green) 92%, transparent)' }}>Projects & Skills</Link>
+                <Link href="/" className="transition-colors" style={{ color: 'var(--ink-strong)', textDecoration: 'underline', textDecorationColor: 'transparent' }}>Home</Link>
+                <Link href="/projects-skills" className="transition-colors" style={{ color: 'var(--ink-strong)', textDecoration: 'underline', textDecorationColor: 'transparent' }}>Projects & Skills</Link>
+                <Link href="/about" className="transition-colors" style={{ color: 'var(--ink-strong)', textDecoration: 'underline', textDecorationColor: 'transparent' }}>About</Link>
+                <Link href="/contact" className="transition-colors" style={{ color: 'var(--ink-strong)', textDecoration: 'underline', textDecorationColor: 'transparent' }}>Contact</Link>
               </div>
             </nav>
           </header>
