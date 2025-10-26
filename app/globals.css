@@ -150,3 +150,8 @@
 .drift-slow { animation: drift 14s ease-in-out infinite; }
 .drift-slower { animation: drift 18s ease-in-out infinite; }
 .drift-slowest { animation: drift 24s ease-in-out infinite; }
+
+/* Soft glow utility for decorative images */
+.glow-soft {
+  filter: drop-shadow(0 0 10px rgba(255,255,255,0.18)) drop-shadow(0 0 26px rgba(64,112,255,0.18));
+}
