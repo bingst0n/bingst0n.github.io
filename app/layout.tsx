@@ -35,8 +35,8 @@ export default function RootLayout({
             aria-hidden
             className="pointer-events-none fixed inset-0 -z-10"
           >
-            <div className="absolute -top-40 left-1/2 h-[40rem] w-[40rem] -translate-x-1/2 rounded-full bg-[radial-gradient(circle_at_center,rgba(64,112,255,0.25),transparent_60%)] blur-3xl" />
-            <div className="absolute bottom-[-10rem] right-[-10rem] h-[30rem] w-[30rem] rounded-full bg-[radial-gradient(circle_at_center,rgba(0,188,255,0.18),transparent_60%)] blur-3xl" />
+            <div className="absolute -top-40 left-1/2 h-[40rem] w-[40rem] -translate-x-1/2 rounded-full bg-[radial-gradient(circle_at_center,rgba(64,112,255,0.25),transparent_60%)] blur-3xl bg-blob-1" />
+            <div className="absolute bottom-[-10rem] right-[-10rem] h-[30rem] w-[30rem] rounded-full bg-[radial-gradient(circle_at_center,rgba(0,188,255,0.18),transparent_60%)] blur-3xl bg-blob-2" />
           </div>
 
           <header className="sticky top-0 z-20 backdrop-blur supports-[backdrop-filter]:bg-white/5 border-b border-white/10">

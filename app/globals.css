@@ -120,3 +120,17 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Subtle animated background blobs */
+@keyframes glow-blob-1 {
+  0%, 100% { opacity: 0.25; transform: translate(-50%, 0) scale(1); }
+  50% { opacity: 0.35; transform: translate(-50%, 10px) scale(1.03); }
+}
+
+@keyframes glow-blob-2 {
+  0%, 100% { opacity: 0.18; transform: translate(0, 0) scale(1); }
+  50% { opacity: 0.28; transform: translate(-8px, 8px) scale(1.04); }
+}
+
+.bg-blob-1 { animation: glow-blob-1 8s ease-in-out infinite; }
+.bg-blob-2 { animation: glow-blob-2 10s ease-in-out infinite; }
