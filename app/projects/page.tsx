@@ -1,7 +1,4 @@
 import projects from "@/content/projects.json";
-import mathematics from "@/content/mathematics.json";
-import music from "@/content/music.json";
-import mandarin from "@/content/mandarin.json";
 import { Card } from "@/components/ui/card";
 import Link from "next/link";
 
@@ -10,13 +7,15 @@ export default function ProjectsPage() {
     <div className="space-y-10">
       <header className="space-y-2">
         <h1 className="text-3xl font-semibold text-white/90">Projects</h1>
-        <p className="text-white/70">{projects.intro}</p>
+        {"intro" in projects && (
+          <p className="text-white/70">{(projects as any).intro}</p>
+        )}
       </header>
 
       <section className="space-y-4">
-        <h2 className="text-xl font-medium text-white/90">Mathematics</h2>
+        <h2 className="text-xl font-medium text-white/90">{projects.mathematics.title}</h2>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {mathematics.items.map((m, i) => (
+          {projects.mathematics.items.map((m, i: number) => (
             <Card key={i} className="bg-white/5 border-white/10 backdrop-blur p-5 text-white/80">
               <h3 className="font-medium text-white/90">{m.title}</h3>
               <p className="text-white/70 mt-1 text-sm">{m.description}</p>
@@ -29,9 +28,9 @@ export default function ProjectsPage() {
       </section>
 
       <section className="space-y-4">
-        <h2 className="text-xl font-medium text-white/90">Music</h2>
+        <h2 className="text-xl font-medium text-white/90">{projects.music.title}</h2>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {music.items.map((m, i) => (
+          {projects.music.items.map((m, i: number) => (
             <Card key={i} className="bg-white/5 border-white/10 backdrop-blur p-5 text-white/80">
               <h3 className="font-medium text-white/90">{m.title}</h3>
               <p className="text-white/70 mt-1 text-sm">{m.description}</p>
@@ -44,9 +43,9 @@ export default function ProjectsPage() {
       </section>
 
       <section className="space-y-4">
-        <h2 className="text-xl font-medium text-white/90">Mandarin</h2>
+        <h2 className="text-xl font-medium text-white/90">{projects.mandarin.title}</h2>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {mandarin.items.map((m, i) => (
+          {projects.mandarin.items.map((m, i: number) => (
             <Card key={i} className="bg-white/5 border-white/10 backdrop-blur p-5 text-white/80">
               <h3 className="font-medium text-white/90">{m.title}</h3>
               <p className="text-white/70 mt-1 text-sm">{m.description}</p>
@@ -59,9 +58,9 @@ export default function ProjectsPage() {
       </section>
 
       <section className="space-y-4">
-        <h2 className="text-xl font-medium text-white/90">General Projects</h2>
+        <h2 className="text-xl font-medium text-white/90">{projects.general.title}</h2>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {projects.items.map((p, i) => (
+          {projects.general.items.map((p, i: number) => (
             <Card key={i} className="bg-white/5 border-white/10 backdrop-blur p-5 text-white/80">
               <h3 className="font-medium text-white/90">{p.title}</h3>
               <p className="text-white/70 mt-1 text-sm">{p.description}</p>

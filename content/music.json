@@ -1,7 +1,0 @@
-{
-  "intro": "Music I'm practicing, performing, or composing.",
-  "items": [
-    { "title": "Performance Clip", "description": "Short description.", "link": "#" },
-    { "title": "Composition", "description": "Short description.", "link": "#" }
-  ]
-}

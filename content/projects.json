@@ -1,8 +1,32 @@
 {
   "intro": "Selected projects across AI, coding, and experiments.",
-  "items": [
-    { "title": "Project One", "description": "Short description of an AI/coding project.", "link": "#" },
-    { "title": "Project Two", "description": "Another project placeholder.", "link": "#" },
-    { "title": "Project Three", "description": "Add your own projects easily here.", "link": "#" }
-  ]
+  "mathematics": {
+    "title": "Mathematics",
+    "items": [
+      { "title": "Problem Set Notes", "description": "Key insights and solutions.", "link": "#" },
+      { "title": "Explainer", "description": "Concept writeup.", "link": "#" }
+    ]
+  },
+  "music": {
+    "title": "Music",
+    "items": [
+      { "title": "Performance Clip", "description": "Short description.", "link": "#" },
+      { "title": "Composition", "description": "Short description.", "link": "#" }
+    ]
+  },
+  "mandarin": {
+    "title": "Mandarin",
+    "items": [
+      { "title": "Vocabulary Goals", "description": "Weekly targets and decks.", "link": "#" },
+      { "title": "Speaking Practice", "description": "Clips and reflections.", "link": "#" }
+    ]
+  },
+  "general": {
+    "title": "General Projects",
+    "items": [
+      { "title": "Project One", "description": "Short description of an AI/coding project.", "link": "#" },
+      { "title": "Project Two", "description": "Another project placeholder.", "link": "#" },
+      { "title": "Project Three", "description": "Add your own projects easily here.", "link": "#" }
+    ]
+  }
 }
