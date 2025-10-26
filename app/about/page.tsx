@@ -37,17 +37,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Personal Note */}
-      <section className="space-y-4">
-        <h2 className="text-2xl font-bold text-white/95">Personal Note</h2>
-        <div className="bg-white/5 border border-white/10 backdrop-blur rounded-xl p-6">
-          <p className="text-white/80 leading-relaxed max-w-3xl">
-            I'm driven by curiosity and connection. To me, math and music share the same pulse — patterns that make sense of the
-            world. Through language, I try to translate that sense between people.
-          </p>
-        </div>
-      </section>
-
       {/* Footer CTA */}
       <section className="space-y-4">
         <h2 className="text-2xl font-bold text-white/95">Get in Touch</h2>
