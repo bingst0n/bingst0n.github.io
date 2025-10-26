@@ -44,12 +44,12 @@ export default function Home() {
           alt=""
           width={260}
           height={260}
-          className="absolute bottom-6 left-1/2 -translate-x-1/2 opacity-25 drift-slowest select-none glow-soft"
+          className="absolute bottom-3 left-1/2 -translate-x-1/2 opacity-25 drift-slowest select-none glow-soft"
           priority={false}
         />
       </div>
 
-      <div className="mx-auto max-w-4xl px-4 sm:px-6 min-h-[70vh] flex items-center justify-center">
+      <div className="mx-auto max-w-4xl px-4 sm:px-6 pt-24 pb-12 sm:pt-32 sm:pb-16">
         <div className="text-center">
           <h1 className="text-5xl sm:text-6xl font-semibold tracking-tight text-white/95">
             {home.heroTitle}
