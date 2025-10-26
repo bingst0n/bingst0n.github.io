@@ -7,8 +7,8 @@ export default function AboutPage() {
       {/* Hero: Intro */}
       <section className="space-y-6">
         <div className="bg-white/5 border border-white/10 backdrop-blur rounded-xl p-8">
-          <h1 className="text-4xl sm:text-5xl font-bold text-white/95">Harrison Green</h1>
-          <p className="text-lg text-white/75 mt-3">Mathematician • Musician • AI Enthusiast • Bilingual Storyteller.</p>
+          <h1 className="text-4xl sm:text-5xl font-bold text-white/95">Harrison R. Green</h1>
+          <p className="text-lg text-white/75 mt-3">Mathematician • Musician • AI Enthusiast • Bilingual Storyteller</p>
           <p className="text-white/80 mt-6 leading-relaxed max-w-3xl">
             I'm a student at Avenues: The World School in New York City. I explore mathematics, AI, and creative
             expression to understand how systems think and feel. I grew up bilingual in English and Mandarin, and I'm
@@ -20,31 +20,19 @@ export default function AboutPage() {
 
       {/* Snapshot / Fast Facts */}
       <section className="space-y-4">
-        <h2 className="text-2xl font-bold text-white/95">Quick Facts</h2>
+        <h2 className="text-2xl font-bold text-white/95">Information</h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
           <div className="bg-white/5 border border-white/10 backdrop-blur rounded-xl p-5">
             <div className="text-sm text-white/60 mb-2">📍 Location</div>
             <div className="text-white/90">New York City</div>
           </div>
           <div className="bg-white/5 border border-white/10 backdrop-blur rounded-xl p-5">
-            <div className="text-sm text-white/60 mb-2">🏫 School</div>
+            <div className="text-sm text-white/60 mb-2">🏫 Education</div>
             <div className="text-white/90">Avenues: The World School</div>
           </div>
           <div className="bg-white/5 border border-white/10 backdrop-blur rounded-xl p-5">
             <div className="text-sm text-white/60 mb-2">📚 Interests</div>
             <div className="text-white/90">Math • AI • Music • Game Design • Language</div>
-          </div>
-          <div className="bg-white/5 border border-white/10 backdrop-blur rounded-xl p-5">
-            <div className="text-sm text-white/60 mb-2">🌐 Languages</div>
-            <div className="text-white/90">English & Mandarin</div>
-          </div>
-          <div className="bg-white/5 border border-white/10 backdrop-blur rounded-xl p-5">
-            <div className="text-sm text-white/60 mb-2">🎓 Goals</div>
-            <div className="text-white/90">Research + Creative Development at University</div>
-          </div>
-          <div className="bg-white/5 border border-white/10 backdrop-blur rounded-xl p-5">
-            <div className="text-sm text-white/60 mb-2">💡 Fun</div>
-            <div className="text-white/90">Loves modal guitar theory, circle geometry, and story-driven games</div>
           </div>
         </div>
       </section>

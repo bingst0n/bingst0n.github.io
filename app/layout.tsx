@@ -26,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en" className="dark scroll-smooth">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-gradient-to-br from-[#0b132b] via-[#1c2541] to-[#3a506b] text-foreground`}
       >
@@ -40,21 +40,7 @@ export default function RootLayout({
             <div className="absolute top-1/3 -left-28 h-[26rem] w-[26rem] rounded-full bg-[radial-gradient(circle_at_center,rgba(91,192,190,0.16),transparent_60%)] blur-3xl bg-blob-3" />
           </div>
 
-          <header className="sticky top-0 z-20 backdrop-blur supports-[backdrop-filter]:bg-white/5 border-b border-white/10">
-            <nav className="mx-auto max-w-6xl px-4 sm:px-6 py-3 flex items-center justify-between">
-              <Link href="/" className="font-semibold tracking-tight transition-colors" style={{ color: '#5bc0be' }}>
-                Harrison Green
-              </Link>
-              <div className="flex items-center gap-4 text-sm">
-                <Link href="/about" className="text-white/75 hover:text-white">About</Link>
-                <Link href="/projects-skills" className="text-white/75 hover:text-white">Projects & Skills</Link>
-                <Link href="/contact" className="text-white/75 hover:text-white">Contact</Link>
-                <a href="/resume.pdf" className="rounded-full bg-white/10 px-3 py-1.5 text-white/90 hover:bg-white/15 transition-colors border border-white/15">Resume</a>
-              </div>
-            </nav>
-          </header>
-
-          <main className="mx-auto max-w-6xl px-4 sm:px-6 py-10">
+          <main>
             <PageTransition>
               {children}
             </PageTransition>
