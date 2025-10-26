@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <section className="relative isolate">
-      <div className="mx-auto max-w-4xl px-4 sm:px-6 pt-24 pb-12 sm:pt-32 sm:pb-16">
+      <div className="mx-auto max-w-4xl px-4 sm:px-6 min-h-[70vh] flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-5xl sm:text-6xl font-semibold tracking-tight text-white/95">
             {home.heroTitle}

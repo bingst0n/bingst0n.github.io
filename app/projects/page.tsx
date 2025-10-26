@@ -12,65 +12,22 @@ export default function ProjectsPage() {
         )}
       </header>
 
-      <section className="space-y-4">
-        <h2 className="text-xl font-medium text-white/90">{projects.mathematics.title}</h2>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {projects.mathematics.items.map((m, i: number) => (
-            <Card key={i} className="bg-white/5 border-white/10 backdrop-blur p-5 text-white/80">
-              <h3 className="font-medium text-white/90">{m.title}</h3>
-              <p className="text-white/70 mt-1 text-sm">{m.description}</p>
-              <Link href={m.link} className="text-blue-300 hover:text-blue-200 mt-3 inline-block text-sm">
-                View
-              </Link>
-            </Card>
-          ))}
-        </div>
-      </section>
-
-      <section className="space-y-4">
-        <h2 className="text-xl font-medium text-white/90">{projects.music.title}</h2>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {projects.music.items.map((m, i: number) => (
-            <Card key={i} className="bg-white/5 border-white/10 backdrop-blur p-5 text-white/80">
-              <h3 className="font-medium text-white/90">{m.title}</h3>
-              <p className="text-white/70 mt-1 text-sm">{m.description}</p>
-              <Link href={m.link} className="text-blue-300 hover:text-blue-200 mt-3 inline-block text-sm">
-                Listen
-              </Link>
-            </Card>
-          ))}
-        </div>
-      </section>
-
-      <section className="space-y-4">
-        <h2 className="text-xl font-medium text-white/90">{projects.mandarin.title}</h2>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {projects.mandarin.items.map((m, i: number) => (
-            <Card key={i} className="bg-white/5 border-white/10 backdrop-blur p-5 text-white/80">
-              <h3 className="font-medium text-white/90">{m.title}</h3>
-              <p className="text-white/70 mt-1 text-sm">{m.description}</p>
-              <Link href={m.link} className="text-blue-300 hover:text-blue-200 mt-3 inline-block text-sm">
-                View
-              </Link>
-            </Card>
-          ))}
-        </div>
-      </section>
-
-      <section className="space-y-4">
-        <h2 className="text-xl font-medium text-white/90">{projects.general.title}</h2>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {projects.general.items.map((p, i: number) => (
-            <Card key={i} className="bg-white/5 border-white/10 backdrop-blur p-5 text-white/80">
-              <h3 className="font-medium text-white/90">{p.title}</h3>
-              <p className="text-white/70 mt-1 text-sm">{p.description}</p>
-              <Link href={p.link} className="text-blue-300 hover:text-blue-200 mt-3 inline-block text-sm">
-                View
-              </Link>
-            </Card>
-          ))}
-        </div>
-      </section>
+      {(projects as any).sections.map((section: { title: string; items: { title: string; description: string; link: string }[] }, idx: number) => (
+        <section key={idx} className="space-y-4">
+          <h2 className="text-xl font-medium text-white/90">{section.title}</h2>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {section.items.map((item, i) => (
+              <Card key={i} className="bg-white/5 border-white/10 backdrop-blur p-5 text-white/80">
+                <h3 className="font-medium text-white/90">{item.title}</h3>
+                <p className="text-white/70 mt-1 text-sm">{item.description}</p>
+                <Link href={item.link} className="text-blue-300 hover:text-blue-200 mt-3 inline-block text-sm">
+                  View
+                </Link>
+              </Card>
+            ))}
+          </div>
+        </section>
+      ))}
     </div>
   );
 }
