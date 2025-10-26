@@ -14,7 +14,7 @@ export default function Home() {
             width={260}
             height={260}
             className="absolute opacity-25 drift-slow select-none glow-soft hidden landscape:block" 
-            style={{top: '20vh', left: '2vw', width: 'clamp(120px, 18vw, 280px)', height: 'auto'}}
+            style={{top: '10vh', left: '2vw', width: 'clamp(120px, 18vw, 280px)', height: 'auto'}}
             priority={false}
           />
           <Image
@@ -23,7 +23,7 @@ export default function Home() {
             width={220}
             height={220}
             className="absolute opacity-25 drift-slowest select-none glow-soft hidden landscape:block" 
-            style={{top: '25vh', right: '2vw', width: 'clamp(100px, 16vw, 260px)', height: 'auto'}}
+            style={{top: '12vh', right: '2vw', width: 'clamp(100px, 16vw, 260px)', height: 'auto'}}
             priority={false}
           />
           <Image
