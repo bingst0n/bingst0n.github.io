@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <rect width="100%" height="100%" fill="none"/>
+  <g fill="#ffffff" fill-opacity="0.25">
+    <text x="50" y="120" font-family="Georgia, 'Times New Roman', serif" font-size="64">sin</text>
+    <text x="130" y="95" font-family="Georgia, 'Times New Roman', serif" font-size="28">2</text>
+    <text x="150" y="120" font-family="Georgia, 'Times New Roman', serif" font-size="64">(θ) + cos</text>
+    <text x="440" y="95" font-family="Georgia, 'Times New Roman', serif" font-size="28">2</text>
+    <text x="460" y="120" font-family="Georgia, 'Times New Roman', serif" font-size="64">(θ) = 1</text>
+  </g>
+</svg>

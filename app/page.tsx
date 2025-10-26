@@ -6,9 +6,9 @@ export default function Home() {
   return (
     <section className="relative isolate">
       {/* Decorative graphics */}
-      <div className="pointer-events-none absolute inset-0 -z-10">
+      <div className="pointer-events-none absolute inset-0 z-0">
         <Image
-          src="/graphics/trig-identity.png"
+          src="/graphics/trig-identity.svg"
           alt=""
           width={260}
           height={260}
@@ -16,15 +16,15 @@ export default function Home() {
           priority={false}
         />
         <Image
-          src="/graphics/gradient-dLdw.png"
+          src="/graphics/dl-dw.svg"
           alt=""
           width={220}
           height={220}
-          className="absolute top-24 right-8 opacity-25 drift-slowest select-none"
+          className="absolute top-40 right-8 opacity-25 drift-slowest select-none"
           priority={false}
         />
         <Image
-          src="/graphics/treble-clef.png"
+          src="/graphics/treble-clef.svg"
           alt=""
           width={200}
           height={200}
@@ -32,7 +32,7 @@ export default function Home() {
           priority={false}
         />
         <Image
-          src="/graphics/bilingual-chinese.png"
+          src="/graphics/bilingual-chinese.svg"
           alt=""
           width={240}
           height={240}
@@ -40,11 +40,11 @@ export default function Home() {
           priority={false}
         />
         <Image
-          src="/graphics/neural-network.png"
+          src="/graphics/neural-network.svg"
           alt=""
           width={260}
           height={260}
-          className="absolute top-1/2 left-1/2 -translate-x-[70%] translate-y-10 opacity-25 drift-slowest select-none"
+          className="absolute top-1/2 left-1/2 -translate-x-[70%] translate-y-24 opacity-25 drift-slowest select-none"
           priority={false}
         />
       </div>
