@@ -12,7 +12,7 @@ export default function Home() {
           alt=""
           width={260}
           height={260}
-          className="absolute opacity-25 drift-slow select-none glow-soft" style={{top: '10vh', left: '1vw', width: 'clamp(120px, 18vw, 280px)', height: 'auto'}}
+          className="absolute opacity-25 drift-slow select-none glow-soft" style={{top: '15vh', left: '1vw', width: 'clamp(120px, 18vw, 280px)', height: 'auto'}}
           priority={false}
         />
         <Image
@@ -20,7 +20,7 @@ export default function Home() {
           alt=""
           width={220}
           height={220}
-          className="absolute opacity-25 drift-slowest select-none glow-soft hidden sm:block" style={{top: '17vh', right: '1vw', width: 'clamp(100px, 16vw, 260px)', height: 'auto'}}
+          className="absolute opacity-25 drift-slowest select-none glow-soft hidden sm:block" style={{top: '22vh', right: '1vw', width: 'clamp(100px, 16vw, 260px)', height: 'auto'}}
           priority={false}
         />
         <Image
@@ -28,7 +28,7 @@ export default function Home() {
           alt=""
           width={200}
           height={200}
-          className="absolute opacity-25 drift-slower select-none glow-soft" style={{bottom: '33vh', left: '1vw', width: 'clamp(100px, 15vw, 240px)', height: 'auto'}}
+          className="absolute opacity-25 drift-slower select-none glow-soft" style={{bottom: '28vh', left: '1vw', width: 'clamp(100px, 15vw, 240px)', height: 'auto'}}
           priority={false}
         />
         <Image
@@ -36,7 +36,7 @@ export default function Home() {
           alt=""
           width={240}
           height={240}
-          className="absolute opacity-25 drift-slow select-none glow-soft" style={{bottom: '33vh', right: '1vw', width: 'clamp(120px, 18vw, 280px)', height: 'auto'}}
+          className="absolute opacity-25 drift-slow select-none glow-soft" style={{bottom: '28vh', right: '1vw', width: 'clamp(120px, 18vw, 280px)', height: 'auto'}}
           priority={false}
         />
         <Image
@@ -44,7 +44,7 @@ export default function Home() {
           alt=""
           width={260}
           height={260}
-          className="absolute left-1/2 -translate-x-1/2 opacity-25 drift-slowest select-none glow-soft" style={{bottom: '9vh', width: 'clamp(140px, 20vw, 320px)', height: 'auto'}}
+          className="absolute left-1/2 -translate-x-1/2 opacity-25 drift-slowest select-none glow-soft" style={{bottom: '4vh', width: 'clamp(140px, 20vw, 320px)', height: 'auto'}}
           priority={false}
         />
       </div>
