@@ -47,9 +47,7 @@ export default function RootLayout({
               </Link>
               <div className="flex items-center gap-5 text-sm font-semibold">
                 <Link href="/about" className="transition-colors" style={{ color: 'color-mix(in srgb, var(--tea-green) 92%, transparent)' }}>About</Link>
-                <Link href="/projects" className="transition-colors" style={{ color: 'color-mix(in srgb, var(--tea-green) 92%, transparent)' }}>Projects</Link>
-                <Link href="/awards" className="transition-colors" style={{ color: 'color-mix(in srgb, var(--tea-green) 92%, transparent)' }}>Awards</Link>
-                <a href="/resume.pdf" className="btn" style={{ borderColor: 'var(--tea-green)', color: 'var(--tea-green)' }}>Resume</a>
+                <Link href="/projects-skills" className="transition-colors" style={{ color: 'color-mix(in srgb, var(--tea-green) 92%, transparent)' }}>Projects & Skills</Link>
               </div>
             </nav>
           </header>
