@@ -12,7 +12,7 @@ export default function Home() {
           alt=""
           width={260}
           height={260}
-          className="absolute top-6 left-2 opacity-25 drift-slow select-none glow-soft"
+          className="absolute top-6 left-2 opacity-25 drift-slow select-none glow-soft w-32 sm:w-44 md:w-52 lg:w-64 h-auto"
           priority={false}
         />
         <Image
@@ -20,7 +20,7 @@ export default function Home() {
           alt=""
           width={220}
           height={220}
-          className="absolute top-20 right-2 opacity-25 drift-slowest select-none glow-soft"
+          className="absolute top-20 right-2 opacity-25 drift-slowest select-none glow-soft w-28 sm:w-36 md:w-44 lg:w-52 h-auto hidden sm:block"
           priority={false}
         />
         <Image
@@ -28,7 +28,7 @@ export default function Home() {
           alt=""
           width={200}
           height={200}
-          className="absolute bottom-8 left-2 opacity-25 drift-slower select-none glow-soft"
+          className="absolute bottom-32 sm:bottom-20 md:bottom-12 left-2 opacity-25 drift-slower select-none glow-soft w-24 sm:w-32 md:w-40 lg:w-48 h-auto"
           priority={false}
         />
         <Image
@@ -36,7 +36,7 @@ export default function Home() {
           alt=""
           width={240}
           height={240}
-          className="absolute bottom-6 right-2 opacity-25 drift-slow select-none glow-soft"
+          className="absolute bottom-32 sm:bottom-16 md:bottom-8 right-2 opacity-25 drift-slow select-none glow-soft w-32 sm:w-40 md:w-48 lg:w-56 h-auto"
           priority={false}
         />
         <Image
@@ -44,7 +44,7 @@ export default function Home() {
           alt=""
           width={260}
           height={260}
-          className="absolute bottom-3 left-1/2 -translate-x-1/2 opacity-25 drift-slowest select-none glow-soft"
+          className="absolute bottom-40 sm:bottom-32 md:bottom-24 lg:bottom-16 left-1/2 -translate-x-1/2 opacity-25 drift-slowest select-none glow-soft w-32 sm:w-40 md:w-48 lg:w-64 h-auto"
           priority={false}
         />
       </div>
