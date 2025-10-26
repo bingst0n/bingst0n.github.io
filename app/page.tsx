@@ -14,7 +14,7 @@ export default function Home() {
             width={260}
             height={260}
             className="absolute opacity-25 drift-slow select-none glow-soft hidden landscape:block" 
-            style={{top: '10vh', left: '15vw', width: '280px', height: 'auto'}}
+            style={{top: '10vh', left: '15vw', width: 'clamp(120px, 18vw, 280px)', height: 'auto'}}
             priority={false}
           />
           <Image
@@ -23,7 +23,7 @@ export default function Home() {
             width={220}
             height={220}
             className="absolute opacity-25 drift-slowest select-none glow-soft hidden landscape:block" 
-            style={{top: '12vh', right: '15vw', width: '260px', height: 'auto'}}
+            style={{top: '12vh', right: '15vw', width: 'clamp(100px, 16vw, 260px)', height: 'auto'}}
             priority={false}
           />
           <Image
@@ -32,7 +32,7 @@ export default function Home() {
             width={200}
             height={200}
             className="absolute opacity-25 drift-slower select-none glow-soft hidden landscape:block" 
-            style={{bottom: '25vh', left: '2vw', width: '240px', height: 'auto'}}
+            style={{bottom: '25vh', left: '2vw', width: 'clamp(100px, 15vw, 240px)', height: 'auto'}}
             priority={false}
           />
           <Image
@@ -41,7 +41,7 @@ export default function Home() {
             width={240}
             height={240}
             className="absolute opacity-25 drift-slow select-none glow-soft hidden landscape:block" 
-            style={{bottom: '25vh', right: '2vw', width: '280px', height: 'auto'}}
+            style={{bottom: '25vh', right: '2vw', width: 'clamp(120px, 18vw, 280px)', height: 'auto'}}
             priority={false}
           />
           <div className="absolute" style={{bottom: '10vh', left: '50%', transform: 'translateX(-50%)'}}>
@@ -51,7 +51,7 @@ export default function Home() {
               width={260}
               height={260}
               className="opacity-25 drift-slowest select-none glow-soft"
-              style={{width: '320px', height: 'auto'}}
+              style={{width: 'clamp(140px, 20vw, 320px)', height: 'auto'}}
               priority={false}
             />
           </div>
