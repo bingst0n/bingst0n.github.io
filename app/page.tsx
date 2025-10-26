@@ -10,9 +10,9 @@ export default function Home() {
             <span className="kicker">Harrison Green — Portfolio</span>
             <h1>
               Building at the edge of{" "}
-              <span style={{ color: "var(--acc)" }}>math</span>,{" "}
-              <span style={{ color: "var(--acc2)" }}>AI</span> &{" "}
-              <span style={{ color: "#C7F9CC" }}>music</span>.
+              <span style={{ color: "var(--emerald)" }}>math</span>,{" "}
+              <span style={{ color: "var(--light-green)" }}>AI</span> &{" "}
+              <span style={{ color: "var(--tea-green)" }}>music</span>.
             </h1>
             <p style={{ maxWidth: "58ch", marginTop: "1rem" }}>
               I'm a student at Avenues (NYC) exploring research in mathematics and machine learning,
@@ -46,7 +46,7 @@ export default function Home() {
               <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "1.3rem", marginBottom: "0.5rem" }}>
                 Mathematics
               </h3>
-              <p style={{ color: "#0D1B1E", opacity: 0.75, marginBottom: "0.75rem" }}>
+              <p style={{ color: "var(--lapis-lazuli)", opacity: 0.75, marginBottom: "0.75rem" }}>
                 Number theory, combinatorics, and proof techniques. I enjoy problem-solving competitions and writing explainers.
               </p>
               <Link href="/projects" className="btn" style={{ fontSize: "0.9rem", padding: "0.6rem 0.9rem" }}>
@@ -58,7 +58,7 @@ export default function Home() {
               <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "1.3rem", marginBottom: "0.5rem" }}>
                 AI & Coding
               </h3>
-              <p style={{ color: "#0D1B1E", opacity: 0.75, marginBottom: "0.75rem" }}>
+              <p style={{ color: "var(--lapis-lazuli)", opacity: 0.75, marginBottom: "0.75rem" }}>
                 CNNs, transformers, and experiments with small-scale ML projects. Python, TypeScript, and Rust.
               </p>
               <Link href="/projects" className="btn" style={{ fontSize: "0.9rem", padding: "0.6rem 0.9rem" }}>
@@ -70,7 +70,7 @@ export default function Home() {
               <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "1.3rem", marginBottom: "0.5rem" }}>
                 Music
               </h3>
-              <p style={{ color: "#0D1B1E", opacity: 0.75, marginBottom: "0.75rem" }}>
+              <p style={{ color: "var(--lapis-lazuli)", opacity: 0.75, marginBottom: "0.75rem" }}>
                 Guitar compositions, modal harmony experiments, and algorithmic motif generation.
               </p>
               <Link href="/projects" className="btn" style={{ fontSize: "0.9rem", padding: "0.6rem 0.9rem" }}>
@@ -82,7 +82,7 @@ export default function Home() {
       </section>
 
       {/* Featured Projects */}
-      <section id="projects" className="section" style={{ background: "var(--wash)" }}>
+      <section id="projects" className="section" style={{ background: "var(--light-green)" }}>
         <div className="container">
           <div
             style={{

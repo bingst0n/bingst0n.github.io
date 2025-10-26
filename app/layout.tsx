@@ -37,19 +37,19 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${bricolage.variable} ${inter.variable} ${ibmMono.variable} antialiased min-h-screen`}
-        style={{backgroundColor: '#F7FBF8', color: '#0D1B1E'}}
+        style={{ backgroundColor: 'var(--tea-green)', color: 'var(--lapis-lazuli)' }}
       >
         <div className="relative min-h-screen">
-          <header className="sticky top-0 z-20 bg-[#22577A] border-b border-[#1b4056]">
+          <header className="sticky top-0 z-20" style={{ backgroundColor: 'var(--verdigris)', borderBottom: '1px solid var(--lapis-lazuli)' }}>
             <nav className="mx-auto max-w-[1100px] px-5 py-4 flex items-center justify-between">
-              <Link href="/" className="font-display font-extrabold text-xl tracking-tight text-[#E9FFF3] hover:text-[#80ED99] transition-colors">
+              <Link href="/" className="font-display font-extrabold text-xl tracking-tight transition-colors" style={{ color: 'var(--tea-green)' }}>
                 Harrison Green
               </Link>
               <div className="flex items-center gap-5 text-sm font-semibold">
-                <Link href="/about" className="text-[#E9FFF3]/90 hover:text-[#80ED99] transition-colors">About</Link>
-                <Link href="/projects" className="text-[#E9FFF3]/90 hover:text-[#80ED99] transition-colors">Projects</Link>
-                <Link href="/awards" className="text-[#E9FFF3]/90 hover:text-[#80ED99] transition-colors">Awards</Link>
-                <a href="/resume.pdf" className="btn" style={{ borderColor: '#E9FFF3', color: '#E9FFF3' }}>Resume</a>
+                <Link href="/about" className="transition-colors" style={{ color: 'color-mix(in srgb, var(--tea-green) 92%, transparent)' }}>About</Link>
+                <Link href="/projects" className="transition-colors" style={{ color: 'color-mix(in srgb, var(--tea-green) 92%, transparent)' }}>Projects</Link>
+                <Link href="/awards" className="transition-colors" style={{ color: 'color-mix(in srgb, var(--tea-green) 92%, transparent)' }}>Awards</Link>
+                <a href="/resume.pdf" className="btn" style={{ borderColor: 'var(--tea-green)', color: 'var(--tea-green)' }}>Resume</a>
               </div>
             </nav>
           </header>
@@ -60,10 +60,10 @@ export default function RootLayout({
             </PageTransition>
           </main>
 
-          <footer className="section" style={{paddingTop: '32px'}}>
-            <div className="container" style={{display:'flex', justifyContent:'space-between', alignItems:'center', gap:'1rem', borderTop:'1px solid #e0efe5', paddingTop:'18px'}}>
+          <footer className="section" style={{ paddingTop: '32px' }}>
+            <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '1rem', borderTop: '1px solid var(--verdigris)', paddingTop: '18px' }}>
               <small className="mono">© 2025 Harrison Green</small>
-              <nav style={{display:'flex', gap:'.9rem'}}>
+              <nav style={{ display: 'flex', gap: '.9rem' }}>
                 <a className="btn" href="https://github.com/bingst0n" target="_blank" rel="noopener noreferrer">GitHub</a>
                 <a className="btn" href="mailto:harrison@example.com">Email</a>
               </nav>
