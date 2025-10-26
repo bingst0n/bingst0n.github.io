@@ -28,7 +28,7 @@ export default function Home() {
           alt=""
           width={200}
           height={200}
-          className="absolute opacity-25 drift-slower select-none glow-soft hidden landscape:block" style={{bottom: '23vh', left: '1vw', width: 'clamp(100px, 15vw, 240px)', height: 'auto'}}
+          className="absolute opacity-25 drift-slower select-none glow-soft hidden landscape:block" style={{bottom: '35vh', left: '1vw', width: 'clamp(100px, 15vw, 240px)', height: 'auto'}}
           priority={false}
         />
         <Image
@@ -36,7 +36,7 @@ export default function Home() {
           alt=""
           width={240}
           height={240}
-          className="absolute opacity-25 drift-slow select-none glow-soft hidden landscape:block" style={{bottom: '23vh', right: '1vw', width: 'clamp(120px, 18vw, 280px)', height: 'auto'}}
+          className="absolute opacity-25 drift-slow select-none glow-soft hidden landscape:block" style={{bottom: '35vh', right: '1vw', width: 'clamp(120px, 18vw, 280px)', height: 'auto'}}
           priority={false}
         />
         <div className="absolute" style={{bottom: '8px', left: '50%', transform: 'translateX(-50%)'}}>
