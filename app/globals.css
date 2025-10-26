@@ -8,12 +8,19 @@
 }
 
 :root {
-  /* Palette */
-  --lapis-lazuli: #22577aff;
-  --verdigris: #38a3a5ff;
-  --emerald: #57cc99ff;
-  --light-green: #80ed99ff;
-  --tea-green: #c7f9ccff;
+  /* New Earthy Palette */
+  --timberwolf: #dad7cdff;
+  --sage: #a3b18aff;
+  --fern-green: #588157ff;
+  --hunter-green: #3a5a40ff;
+  --brunswick-green: #344e41ff;
+
+  /* Backward-compat mapping (keeps current components working) */
+  --lapis-lazuli: var(--brunswick-green);
+  --verdigris: var(--hunter-green);
+  --emerald: var(--fern-green);
+  --light-green: var(--sage);
+  --tea-green: var(--timberwolf);
 
   /* Aliases used across the site */
   --ink: var(--lapis-lazuli);
