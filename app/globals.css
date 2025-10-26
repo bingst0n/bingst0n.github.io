@@ -7,6 +7,19 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html,
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 :root {
   --oxford-blue: #0b132bff;
   --space-cadet: #1c2541ff;

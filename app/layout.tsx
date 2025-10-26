@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Geist, Geist_Mono } from "next/font/google";
 import PageTransition from "@/components/page-transition";
+import ScrollHeader from "@/components/scroll-header";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -39,6 +40,8 @@ export default function RootLayout({
             <div className="absolute bottom-[-10rem] right-[-10rem] h-[30rem] w-[30rem] rounded-full bg-[radial-gradient(circle_at_center,rgba(111,255,233,0.18),transparent_60%)] blur-3xl bg-blob-2" />
             <div className="absolute top-1/3 -left-28 h-[26rem] w-[26rem] rounded-full bg-[radial-gradient(circle_at_center,rgba(91,192,190,0.16),transparent_60%)] blur-3xl bg-blob-3" />
           </div>
+
+          <ScrollHeader />
 
           <PageTransition>
             {children}
