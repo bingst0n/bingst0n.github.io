@@ -123,14 +123,30 @@
 
 /* Subtle animated background blobs */
 @keyframes glow-blob-1 {
-  0%, 100% { opacity: 0.25; transform: translate(-50%, 0) scale(1); }
-  50% { opacity: 0.35; transform: translate(-50%, 10px) scale(1.03); }
+  0%, 100% { opacity: 0.24; transform: translate(-50%, 0) scale(1); }
+  50% { opacity: 0.45; transform: translate(-50%, 18px) scale(1.06); }
 }
 
 @keyframes glow-blob-2 {
-  0%, 100% { opacity: 0.18; transform: translate(0, 0) scale(1); }
-  50% { opacity: 0.28; transform: translate(-8px, 8px) scale(1.04); }
+  0%, 100% { opacity: 0.16; transform: translate(0, 0) scale(1); }
+  50% { opacity: 0.34; transform: translate(-16px, 14px) scale(1.07); }
 }
 
-.bg-blob-1 { animation: glow-blob-1 8s ease-in-out infinite; }
-.bg-blob-2 { animation: glow-blob-2 10s ease-in-out infinite; }
+@keyframes glow-blob-3 {
+  0%, 100% { opacity: 0.18; transform: translate(0, 0) scale(1); }
+  50% { opacity: 0.36; transform: translate(14px, -12px) scale(1.05); }
+}
+
+.bg-blob-1 { animation: glow-blob-1 9s ease-in-out infinite; }
+.bg-blob-2 { animation: glow-blob-2 12s ease-in-out infinite; }
+.bg-blob-3 { animation: glow-blob-3 11s ease-in-out infinite; }
+
+/* Slow drift for decorative graphics */
+@keyframes drift {
+  0% { transform: translate3d(0, 0, 0) rotate(0deg) scale(1); }
+  50% { transform: translate3d(10px, -10px, 0) rotate(1.5deg) scale(1.02); }
+  100% { transform: translate3d(0, 0, 0) rotate(0deg) scale(1); }
+}
+.drift-slow { animation: drift 16s ease-in-out infinite; }
+.drift-slower { animation: drift 22s ease-in-out infinite; }
+.drift-slowest { animation: drift 28s ease-in-out infinite; }
