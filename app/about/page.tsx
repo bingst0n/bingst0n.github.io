@@ -70,6 +70,7 @@ export default function AboutPage() {
         <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '1rem', flexWrap: 'wrap' }}>
           <p className="mono">Let’s collaborate or just talk about ideas.</p>
           <div style={{ display: 'flex', gap: '.6rem' }}>
+            <a className="btn" href="/resume.pdf" target="_blank" rel="noopener noreferrer">Résumé (PDF)</a>
             <a className="btn" href="mailto:harrison@example.com">Email</a>
             <a className="btn" href="https://github.com/bingst0n" target="_blank" rel="noopener noreferrer">GitHub</a>
             <a className="btn" href="https://soundcloud.com/" target="_blank" rel="noopener noreferrer">SoundCloud</a>
