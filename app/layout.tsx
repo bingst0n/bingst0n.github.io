@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Harrison Green — Personal Website",
-  description: "Harrison | 9th grader exploring music, AI/coding, mathematics, and Mandarin.",
+  title: "Harrison Green",
+  description: "Harrison | Exploring music, AI/coding, mathematics, and Mandarin.",
   metadataBase: new URL("https://example.local"),
 };
 
@@ -41,7 +41,7 @@ export default function RootLayout({
           <header className="sticky top-0 z-20 backdrop-blur supports-[backdrop-filter]:bg-white/5 border-b border-white/10">
             <nav className="mx-auto max-w-6xl px-4 sm:px-6 py-3 flex items-center justify-between">
               <Link href="/" className="font-semibold tracking-tight text-white/90 hover:text-white transition-colors">
-                Harrison
+                Harrison Green
               </Link>
               <div className="flex items-center gap-4 text-sm">
                 <Link href="/about" className="text-white/75 hover:text-white">About</Link>
