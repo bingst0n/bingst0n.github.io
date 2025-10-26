@@ -1,0 +1,7 @@
+{
+  "intro": "Interesting problems, notes, and explorations.",
+  "items": [
+    { "title": "Problem Set Notes", "description": "Key insights and solutions.", "link": "#" },
+    { "title": "Explainer", "description": "Concept writeup.", "link": "#" }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "intro": "Selected projects across AI, coding, and experiments.",
+  "items": [
+    { "title": "Project One", "description": "Short description of an AI/coding project.", "link": "#" },
+    { "title": "Project Two", "description": "Another project placeholder.", "link": "#" },
+    { "title": "Project Three", "description": "Add your own projects easily here.", "link": "#" }
+  ]
+}
