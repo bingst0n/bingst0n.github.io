@@ -12,7 +12,7 @@ export default function Home() {
           alt=""
           width={260}
           height={260}
-          className="absolute top-6 left-2 opacity-25 drift-slow select-none glow-soft w-32 sm:w-44 md:w-52 lg:w-64 h-auto"
+          className="absolute opacity-25 drift-slow select-none glow-soft" style={{top: '2vh', left: '1vw', width: 'clamp(80px, 12vw, 200px)', height: 'auto'}}
           priority={false}
         />
         <Image
@@ -20,7 +20,7 @@ export default function Home() {
           alt=""
           width={220}
           height={220}
-          className="absolute top-20 right-2 opacity-25 drift-slowest select-none glow-soft w-28 sm:w-36 md:w-44 lg:w-52 h-auto hidden sm:block"
+          className="absolute opacity-25 drift-slowest select-none glow-soft hidden sm:block" style={{top: '8vh', right: '1vw', width: 'clamp(70px, 10vw, 180px)', height: 'auto'}}
           priority={false}
         />
         <Image
@@ -28,7 +28,7 @@ export default function Home() {
           alt=""
           width={200}
           height={200}
-          className="absolute bottom-32 sm:bottom-20 md:bottom-12 left-2 opacity-25 drift-slower select-none glow-soft w-24 sm:w-32 md:w-40 lg:w-48 h-auto"
+          className="absolute opacity-25 drift-slower select-none glow-soft" style={{bottom: '15vh', left: '1vw', width: 'clamp(60px, 9vw, 160px)', height: 'auto'}}
           priority={false}
         />
         <Image
@@ -36,7 +36,7 @@ export default function Home() {
           alt=""
           width={240}
           height={240}
-          className="absolute bottom-32 sm:bottom-16 md:bottom-8 right-2 opacity-25 drift-slow select-none glow-soft w-32 sm:w-40 md:w-48 lg:w-56 h-auto"
+          className="absolute opacity-25 drift-slow select-none glow-soft" style={{bottom: '15vh', right: '1vw', width: 'clamp(80px, 11vw, 190px)', height: 'auto'}}
           priority={false}
         />
         <Image
@@ -44,7 +44,7 @@ export default function Home() {
           alt=""
           width={260}
           height={260}
-          className="absolute bottom-40 sm:bottom-32 md:bottom-24 lg:bottom-16 left-1/2 -translate-x-1/2 opacity-25 drift-slowest select-none glow-soft w-32 sm:w-40 md:w-48 lg:w-64 h-auto"
+          className="absolute left-1/2 -translate-x-1/2 opacity-25 drift-slowest select-none glow-soft" style={{bottom: '3vh', width: 'clamp(90px, 12vw, 220px)', height: 'auto'}}
           priority={false}
         />
       </div>
