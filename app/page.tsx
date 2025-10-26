@@ -54,10 +54,8 @@ export default function Home() {
 
       <div className="mx-auto max-w-4xl px-4 sm:px-6 min-h-[70vh] flex items-center justify-center">
         <div className="text-center">
-          <h1 className="text-5xl sm:text-6xl font-semibold tracking-tight">
-            <span className="bg-gradient-to-r from-[#5bc0be] via-[#6fffe9] to-[#5bc0be] bg-clip-text text-transparent">
-              Harrison R. Green
-            </span>
+          <h1 className="text-5xl sm:text-6xl font-semibold tracking-tight" style={{ color: '#5bc0be' }}>
+            Harrison Green
           </h1>
           <p className="mt-4 text-white/80 text-lg sm:text-xl">
             {home.heroSubtitle}
