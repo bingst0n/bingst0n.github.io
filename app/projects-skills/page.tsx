@@ -78,7 +78,7 @@ export default function ProjectsSkillsPage() {
                 A lightweight convolutional network analyzing small, interpretable datasets.
               </p>
               <div style={{ marginTop: '0.6rem', display: 'flex', gap: '.6rem', flexWrap: 'wrap' }}>
-                <Link className="btn" href="/projects">Details</Link>
+                <Link className="btn" href="/projects-skills">Details</Link>
               </div>
             </article>
             <article className="card">
@@ -88,7 +88,7 @@ export default function ProjectsSkillsPage() {
                 A Minecraft datapack blending design balance, scripting, and player progression.
               </p>
               <div style={{ marginTop: '0.6rem', display: 'flex', gap: '.6rem', flexWrap: 'wrap' }}>
-                <Link className="btn" href="/projects">View</Link>
+                <Link className="btn" href="/projects-skills">View</Link>
               </div>
             </article>
             <article className="card">

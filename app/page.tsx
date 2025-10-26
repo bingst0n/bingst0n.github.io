@@ -49,7 +49,7 @@ export default function Home() {
               <p style={{ color: "var(--lapis-lazuli)", opacity: 0.75, marginBottom: "0.75rem" }}>
                 Number theory, combinatorics, and proof techniques. I enjoy problem-solving competitions and writing explainers.
               </p>
-              <Link href="/projects" className="btn" style={{ fontSize: "0.9rem", padding: "0.6rem 0.9rem" }}>
+              <Link href="/projects-skills" className="btn" style={{ fontSize: "0.9rem", padding: "0.6rem 0.9rem" }}>
                 Explore
               </Link>
             </div>
@@ -73,7 +73,7 @@ export default function Home() {
               <p style={{ color: "var(--lapis-lazuli)", opacity: 0.75, marginBottom: "0.75rem" }}>
                 Guitar compositions, modal harmony experiments, and algorithmic motif generation.
               </p>
-              <Link href="/projects" className="btn" style={{ fontSize: "0.9rem", padding: "0.6rem 0.9rem" }}>
+              <Link href="/projects-skills" className="btn" style={{ fontSize: "0.9rem", padding: "0.6rem 0.9rem" }}>
                 Listen
               </Link>
             </div>
@@ -114,7 +114,7 @@ export default function Home() {
               <p style={{ margin: "0.4rem 0 1rem" }}>
                 Built a lightweight CNN classifier for low-res generated glyphs; explored failure modes and saliency maps.
               </p>
-              <Link href="/projects" className="btn">
+              <Link href="/projects-skills" className="btn">
                 Learn more
               </Link>
             </article>
@@ -134,7 +134,7 @@ export default function Home() {
               <p style={{ margin: "0.4rem 0 1rem" }}>
                 Custom datapack & UI; balanced crafting loop and added progression quests; 6k+ downloads.
               </p>
-              <Link href="/projects" className="btn">
+              <Link href="/projects-skills" className="btn">
                 View project
               </Link>
             </article>
@@ -154,14 +154,14 @@ export default function Home() {
               <p style={{ margin: "0.4rem 0 1rem" }}>
                 Three-track EP exploring modal harmony & algorithmic motif generation.
               </p>
-              <Link href="/projects" className="btn">
+              <Link href="/projects-skills" className="btn">
                 Listen
               </Link>
             </article>
           </div>
 
           <div style={{ marginTop: "2rem", textAlign: "center" }}>
-            <Link href="/projects" className="btn" style={{ fontSize: "1rem" }}>
+            <Link href="/projects-skills" className="btn" style={{ fontSize: "1rem" }}>
               View all projects →
             </Link>
           </div>
