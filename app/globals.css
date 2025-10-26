@@ -252,11 +252,8 @@ body {
   0% {
     background-position: 0% 50%;
   }
-  50% {
-    background-position: 100% 50%;
-  }
   100% {
-    background-position: 0% 50%;
+    background-position: 200% 50%;
   }
 }
 
@@ -268,14 +265,11 @@ body {
     var(--yinmn-blue),
     var(--verdigris),
     var(--fluorescent-cyan),
-    var(--verdigris),
-    var(--yinmn-blue),
-    var(--space-cadet),
     var(--oxford-blue)
   );
   background-size: 200% 100%;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: gradient-shift 8s ease-in-out infinite;
+  animation: gradient-shift 8s linear infinite;
 }
