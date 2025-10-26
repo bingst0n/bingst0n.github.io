@@ -12,7 +12,7 @@ export default function Home() {
           alt=""
           width={260}
           height={260}
-          className="absolute top-10 left-6 opacity-25 drift-slow select-none"
+          className="absolute top-6 left-2 opacity-25 drift-slow select-none blur-sm"
           priority={false}
         />
         <Image
@@ -20,7 +20,7 @@ export default function Home() {
           alt=""
           width={220}
           height={220}
-          className="absolute top-40 right-8 opacity-25 drift-slowest select-none"
+          className="absolute top-20 right-2 opacity-25 drift-slowest select-none blur-sm"
           priority={false}
         />
         <Image
@@ -28,7 +28,7 @@ export default function Home() {
           alt=""
           width={200}
           height={200}
-          className="absolute bottom-24 left-10 opacity-25 drift-slower select-none"
+          className="absolute bottom-8 left-2 opacity-25 drift-slower select-none blur-sm"
           priority={false}
         />
         <Image
@@ -36,7 +36,7 @@ export default function Home() {
           alt=""
           width={240}
           height={240}
-          className="absolute bottom-10 right-10 opacity-25 drift-slow select-none"
+          className="absolute bottom-6 right-2 opacity-25 drift-slow select-none blur-sm"
           priority={false}
         />
         <Image
@@ -44,7 +44,7 @@ export default function Home() {
           alt=""
           width={260}
           height={260}
-          className="absolute top-1/2 left-1/2 -translate-x-[70%] translate-y-24 opacity-25 drift-slowest select-none"
+          className="absolute top-1/2 left-[75%] translate-y-24 opacity-25 drift-slowest select-none blur-sm"
           priority={false}
         />
       </div>
