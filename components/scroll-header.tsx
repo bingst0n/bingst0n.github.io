@@ -32,7 +32,7 @@ export default function ScrollHeader() {
       }`}
     >
       <nav className="mx-auto max-w-6xl px-4 sm:px-6 py-3 flex items-center justify-between">
-        <a href="#" className="font-semibold tracking-tight transition-colors" style={{ color: '#5bc0be' }}>
+        <a href="#" className="font-semibold tracking-tight transition-colors" style={{ color: '#caf0f8' }}>
           Harrison Green
         </a>
         <a

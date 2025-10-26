@@ -59,7 +59,7 @@ export default function Home() {
 
         <div className="mx-auto max-w-4xl px-4 sm:px-6 z-10">
           <div className="text-center">
-            <h1 className="text-5xl sm:text-6xl font-semibold tracking-tight" style={{ color: '#1c2541' }}>
+            <h1 className="text-5xl sm:text-6xl font-semibold tracking-tight" style={{ color: '#caf0f8' }}>
               {home.heroTitle}
             </h1>
             <p className="mt-4 text-white/80 text-lg sm:text-xl">
