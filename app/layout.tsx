@@ -47,8 +47,8 @@ export default function RootLayout({
               </Link>
               <div className="flex items-center gap-4 text-sm">
                 <Link href="/about" className="text-white/75 hover:text-white">About</Link>
-                <Link href="/projects" className="text-white/75 hover:text-white">Projects</Link>
-                <Link href="/awards" className="text-white/75 hover:text-white">Awards</Link>
+                <Link href="/projects-skills" className="text-white/75 hover:text-white">Projects & Skills</Link>
+                <Link href="/contact" className="text-white/75 hover:text-white">Contact</Link>
                 <a href="/resume.pdf" className="rounded-full bg-white/10 px-3 py-1.5 text-white/90 hover:bg-white/15 transition-colors border border-white/15">Resume</a>
               </div>
             </nav>
