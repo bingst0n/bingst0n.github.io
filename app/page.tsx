@@ -12,7 +12,7 @@ export default function Home() {
           alt=""
           width={260}
           height={260}
-          className="absolute opacity-25 drift-slow select-none glow-soft" style={{top: '20vh', left: '1vw', width: 'clamp(120px, 18vw, 280px)', height: 'auto'}}
+          className="absolute opacity-25 drift-slow select-none glow-soft hidden landscape:block" style={{top: '30vh', left: '1vw', width: 'clamp(120px, 18vw, 280px)', height: 'auto'}}
           priority={false}
         />
         <Image
@@ -20,7 +20,7 @@ export default function Home() {
           alt=""
           width={220}
           height={220}
-          className="absolute opacity-25 drift-slowest select-none glow-soft hidden sm:block" style={{top: '27vh', right: '1vw', width: 'clamp(100px, 16vw, 260px)', height: 'auto'}}
+          className="absolute opacity-25 drift-slowest select-none glow-soft hidden landscape:block" style={{top: '37vh', right: '1vw', width: 'clamp(100px, 16vw, 260px)', height: 'auto'}}
           priority={false}
         />
         <Image
@@ -28,7 +28,7 @@ export default function Home() {
           alt=""
           width={200}
           height={200}
-          className="absolute opacity-25 drift-slower select-none glow-soft" style={{bottom: '23vh', left: '1vw', width: 'clamp(100px, 15vw, 240px)', height: 'auto'}}
+          className="absolute opacity-25 drift-slower select-none glow-soft hidden landscape:block" style={{bottom: '23vh', left: '1vw', width: 'clamp(100px, 15vw, 240px)', height: 'auto'}}
           priority={false}
         />
         <Image
@@ -36,7 +36,7 @@ export default function Home() {
           alt=""
           width={240}
           height={240}
-          className="absolute opacity-25 drift-slow select-none glow-soft" style={{bottom: '23vh', right: '1vw', width: 'clamp(120px, 18vw, 280px)', height: 'auto'}}
+          className="absolute opacity-25 drift-slow select-none glow-soft hidden landscape:block" style={{bottom: '23vh', right: '1vw', width: 'clamp(120px, 18vw, 280px)', height: 'auto'}}
           priority={false}
         />
         <div className="absolute" style={{bottom: '8px', left: '50%', transform: 'translateX(-50%)'}}>
@@ -52,7 +52,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="mx-auto max-w-4xl px-4 sm:px-6 pt-24 pb-12 sm:pt-32 sm:pb-16">
+      <div className="mx-auto max-w-4xl px-4 sm:px-6 min-h-[70vh] flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-5xl sm:text-6xl font-semibold tracking-tight text-white/95">
             {home.heroTitle}
