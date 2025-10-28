@@ -119,13 +119,13 @@ export default function Home() {
                 </p>
                 <div className="text-xs text-white/60 mt-3">2025 • Geometry</div>
               </article>
-              <article className="bg-white/5 border border-white/10 backdrop-blur rounded-xl p-5">
+              <a href="/A_Mathematical_Analysis_of_Forward_and_Backward_Propagation_in_Artificial_Neural_Networks.pdf" target="_blank" rel="noopener noreferrer" className="bg-white/5 border border-white/10 backdrop-blur rounded-xl p-5 hover:bg-white/10 transition-colors block">
                 <h3 className="font-semibold text-lg text-white/90">Forward & Backward Propagation</h3>
                 <p className="text-white/70 text-sm mt-2">
-                  A proof-oriented explanation of neural-network calculus.
+                  Mathematical breakdown of modern ANN processes, covering ReLU, softmax, and cross-entropy loss functions.
                 </p>
-                <div className="text-xs text-white/60 mt-3">2025 • Calculus</div>
-              </article>
+                <div className="text-xs text-white/60 mt-3">2025 • Calculus • PDF</div>
+              </a>
               <article className="bg-white/5 border border-white/10 backdrop-blur rounded-xl p-5">
                 <h3 className="font-semibold text-lg text-white/90">Ongoing Research</h3>
                 <p className="text-white/70 text-sm mt-2">
