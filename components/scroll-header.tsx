@@ -35,6 +35,7 @@ export default function ScrollHeader() {
         <a href="#" className="font-semibold tracking-tight text-white">
           Harrison Green
         </a>
+{/* Resume button — hidden for now
         <a
           href="/resume.pdf"
           target="_blank"
@@ -43,6 +44,7 @@ export default function ScrollHeader() {
         >
           Resume
         </a>
+*/}
       </nav>
     </header>
   );

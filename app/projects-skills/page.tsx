@@ -56,7 +56,7 @@ export default function ProjectsSkillsPage() {
         </div>
       </section>
 
-      {/* AI & Coding */}
+      {/* AI & Coding — hidden for now
       <section className="space-y-6">
         <div>
           <div className="text-xs uppercase tracking-wider text-white/60 mb-1">Discipline</div>
@@ -96,8 +96,9 @@ export default function ProjectsSkillsPage() {
           </article>
         </div>
       </section>
+      */}
 
-      {/* Music */}
+      {/* Music — hidden for now
       <section className="space-y-6">
         <div>
           <div className="text-xs uppercase tracking-wider text-white/60 mb-1">Discipline</div>
@@ -131,8 +132,9 @@ export default function ProjectsSkillsPage() {
           </article>
         </div>
       </section>
+      */}
 
-      {/* Mandarin */}
+      {/* Mandarin — hidden for now
       <section className="space-y-6">
         <div>
           <div className="text-xs uppercase tracking-wider text-white/60 mb-1">Discipline</div>
@@ -166,6 +168,7 @@ export default function ProjectsSkillsPage() {
           </article>
         </div>
       </section>
+      */}
 
       {/* Ending */}
       <section className="text-center space-y-6 pt-8">

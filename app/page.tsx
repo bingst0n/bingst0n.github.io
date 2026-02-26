@@ -94,7 +94,7 @@ export default function Home() {
               Exploring systems — mathematical, musical, and human.
             </h1>
             <p className="text-lg text-white/75 max-w-3xl">
-              Evidence of work across math, AI/coding, music, and Mandarin.
+              Evidence of work across math, AI/coding, music and music theory, and Mandarin Chinese.
             </p>
           </div>
 
@@ -104,21 +104,14 @@ export default function Home() {
               <div className="text-xs uppercase tracking-wider text-white/60 mb-1">Discipline</div>
               <h2 className="text-3xl font-bold text-white/95">Mathematics</h2>
               <p className="text-white/70 mt-2">
-                The language of structure — from geometry to computation.
+                The language of structure, from geometry to computation.
               </p>
             </div>
             <p className="text-white/80 max-w-3xl leading-relaxed">
-              I study advanced mathematics through Avenues' self-paced Institute, mentored by Dr. Patrick Galarza. I'm on track
-              to complete multivariable calculus by junior year and publish original research in geometric construction.
+              I study math through Avenues' self-paced Institute for Advanced Mathematics, mentored by Dr. Patrick Galarza. I'm on track
+              to complete multivariable calculus by junior year, and am working on publishing original research!
             </p>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
-              <article className="bg-white/5 border border-white/10 backdrop-blur rounded-xl p-5">
-                <h3 className="font-semibold text-lg text-white/90">Constructing Integer Lengths</h3>
-                <p className="text-white/70 text-sm mt-2">
-                  Compass-and-straightedge constructions for integer distances and their algebraic interpretation.
-                </p>
-                <div className="text-xs text-white/60 mt-3">2025 • Geometry</div>
-              </article>
               <a href="/A_Mathematical_Analysis_of_Forward_and_Backward_Propagation_in_Artificial_Neural_Networks.pdf" target="_blank" rel="noopener noreferrer" className="bg-white/5 border border-white/10 backdrop-blur rounded-xl p-5 hover:bg-white/10 transition-colors block">
                 <h3 className="font-semibold text-lg text-white/90">Forward & Backward Propagation</h3>
                 <p className="text-white/70 text-sm mt-2">
@@ -126,17 +119,24 @@ export default function Home() {
                 </p>
                 <div className="text-xs text-white/60 mt-3">2025 • Calculus • PDF</div>
               </a>
-              <article className="bg-white/5 border border-white/10 backdrop-blur rounded-xl p-5">
-                <h3 className="font-semibold text-lg text-white/90">Ongoing Research</h3>
+              <a href="https://www.overleaf.com/read/fydqjsncjcxy#1da53b" target="_blank" rel="noopener noreferrer" className="bg-white/5 border border-white/10 backdrop-blur rounded-xl p-5 hover:bg-white/10 transition-colors block">
+                <h3 className="font-semibold text-lg text-white/90">Music Theory & Math</h3>
                 <p className="text-white/70 text-sm mt-2">
-                  Current work in geometric construction methods and discrete structure.
+                  A book-style manuscript explaining the structures of music theory from a mathematical perspective.
                 </p>
-                <div className="text-xs text-white/60 mt-3">2025– • Research</div>
-              </article>
+                <div className="text-xs text-white/60 mt-3">2026 • Music Theory • Manuscript</div>
+              </a>
+              <a href="/Literary_Survey__Modern_Computer_Vision_Through_the_Convolutional_Neural_Network.pdf" target="_blank" rel="noopener noreferrer" className="bg-white/5 border border-white/10 backdrop-blur rounded-xl p-5 hover:bg-white/10 transition-colors block">
+                <h3 className="font-semibold text-lg text-white/90">CNN Literary Survey</h3>
+                <p className="text-white/70 text-sm mt-2">
+                  A literary survey on modern computer vision through the convolutional neural network.
+                </p>
+                <div className="text-xs text-white/60 mt-3">2025 • AI • PDF</div>
+              </a>
             </div>
           </div>
 
-          {/* AI & Coding */}
+          {/* AI & Coding — hidden for now
           <div className="space-y-6">
             <div>
               <div className="text-xs uppercase tracking-wider text-white/60 mb-1">Discipline</div>
@@ -176,8 +176,9 @@ export default function Home() {
               </article>
             </div>
           </div>
+          */}
 
-          {/* Music */}
+          {/* Music — hidden for now
           <div className="space-y-6">
             <div>
               <div className="text-xs uppercase tracking-wider text-white/60 mb-1">Discipline</div>
@@ -211,8 +212,9 @@ export default function Home() {
               </article>
             </div>
           </div>
+          */}
 
-          {/* Mandarin */}
+          {/* Mandarin — hidden for now
           <div className="space-y-6">
             <div>
               <div className="text-xs uppercase tracking-wider text-white/60 mb-1">Discipline</div>
@@ -246,6 +248,7 @@ export default function Home() {
               </article>
             </div>
           </div>
+          */}
         </div>
       </section>
 
@@ -256,15 +259,25 @@ export default function Home() {
           
           {/* Hero: Intro */}
           <div className="space-y-6">
-            <div className="bg-white/5 border border-white/10 backdrop-blur rounded-xl p-8">
-              <h2 className="text-3xl sm:text-4xl font-bold text-white/95">Harrison R. Green</h2>
-              <p className="text-lg text-white/75 mt-3">Mathematician • Musician • AI Enthusiast • Bilingual Storyteller</p>
-              <p className="text-white/80 mt-6 leading-relaxed max-w-3xl">
-                I'm a student at Avenues: The World School in New York City. I explore mathematics, AI, and creative
-                expression to understand how systems think and feel. I grew up bilingual in English and Mandarin, and I'm
-                fascinated by the ways logic and art reflect each other. When I'm not writing proofs or code, I'm usually
-                composing music or designing a new game mechanic.
-              </p>
+            <div className="bg-white/5 border border-white/10 backdrop-blur rounded-xl p-8 flex flex-col sm:flex-row gap-8 items-center">
+              <Image
+                src="/portrait.jpg"
+                alt="Harrison Green"
+                width={200}
+                height={200}
+                className="rounded-2xl object-cover w-[200px] h-[200px] shrink-0"
+              />
+              <div>
+                <h2 className="text-2xl sm:text-3xl font-bold text-white/95">Harrison R. Green</h2>
+                <p className="text-sm text-white/75 mt-2">Mathematician • Musician • AI Enthusiast • Bilingual Storyteller</p>
+                <p className="text-white/80 mt-4 leading-relaxed max-w-3xl text-sm">
+                  I&apos;m a student at Avenues: The World School in New York City. I&apos;m passionate about the
+                  underlying mathematics of artificial intelligence systems, from the calculus of gradient descent
+                  to the integration of cross-correlation in the convolutional neural network. Outside of STEM,
+                  I&apos;m a guitarist exploring the intersections of music theory and mathematics, and a fluent
+                  Mandarin Chinese speaker and volunteer around the city.
+                </p>
+              </div>
             </div>
           </div>
 
@@ -282,7 +295,7 @@ export default function Home() {
               </div>
               <div className="bg-white/5 border border-white/10 backdrop-blur rounded-xl p-5">
                 <div className="text-sm text-white/60 mb-2">📚 Interests</div>
-                <div className="text-white/90">Math • AI • Music • Game Design • Language</div>
+                <div className="text-white/90">Math • AI • Music • Mandarin</div>
               </div>
             </div>
           </div>
@@ -293,22 +306,13 @@ export default function Home() {
       <section id="contact" className="mx-auto max-w-6xl px-4 sm:px-6 scroll-mt-8 pb-16">
         <div className="space-y-4">
           <h1 className="text-4xl sm:text-5xl font-bold text-white/95">Get in Touch</h1>
-          <div className="bg-white/5 border border-white/10 backdrop-blur rounded-xl p-6">
-            <p className="text-white/75 mb-6">Let's collaborate or just talk about ideas.</p>
-            <div className="flex flex-wrap gap-3">
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="inline-flex items-center rounded-full bg-white/10 px-4 py-2 text-sm text-white/90 hover:bg-white/15 border border-white/15 transition-colors hover:underline">
-                Résumé (PDF)
-              </a>
-              <a href="mailto:harrison@example.com" className="inline-flex items-center rounded-full bg-white/10 px-4 py-2 text-sm text-white/90 hover:bg-white/15 border border-white/15 transition-colors hover:underline">
-                Email
-              </a>
-              <a href="https://github.com/bingst0n" target="_blank" rel="noopener noreferrer" className="inline-flex items-center rounded-full bg-white/10 px-4 py-2 text-sm text-white/90 hover:bg-white/15 border border-white/15 transition-colors hover:underline">
-                GitHub
-              </a>
-              <a href="https://soundcloud.com/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center rounded-full bg-white/10 px-4 py-2 text-sm text-white/90 hover:bg-white/15 border border-white/15 transition-colors hover:underline">
-                SoundCloud
-              </a>
-            </div>
+          <div className="flex flex-wrap gap-4">
+            <a href="mailto:harrisonrgreen@gmail.com" className="inline-flex items-center rounded-full bg-white/10 px-6 py-3 text-base text-white/90 hover:bg-white/15 border border-white/15 transition-colors hover:underline">
+              Email
+            </a>
+            <a href="https://github.com/bingst0n" target="_blank" rel="noopener noreferrer" className="inline-flex items-center rounded-full bg-white/10 px-6 py-3 text-base text-white/90 hover:bg-white/15 border border-white/15 transition-colors hover:underline">
+              GitHub
+            </a>
           </div>
         </div>
       </section>
