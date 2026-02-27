@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import AnimatedGrid from "@/components/animated-grid";
-import FloatingParticles from "@/components/floating-particles";
+import FloatingGraphics from "@/components/floating-graphics";
 import TypewriterName from "@/components/typewriter-name";
 import ScrollReveal from "@/components/scroll-reveal";
 import Image from "next/image";
@@ -38,7 +38,8 @@ export default function Home() {
   return (
     <div className="relative min-h-screen">
       <AnimatedGrid />
-      <FloatingParticles />
+      <FloatingGraphics />
+
       <div className="relative z-10 max-w-4xl mx-auto px-6 py-16 md:py-24">
         {/* Hero */}
         <header className="mb-16">

@@ -206,6 +206,16 @@ body {
   padding: 1rem;
 }
 
+/* Slow drift for decorative graphics */
+@keyframes drift {
+  0% { transform: translate3d(0, 0, 0) rotate(0deg) scale(1); }
+  50% { transform: translate3d(24px, -24px, 0) rotate(3deg) scale(1.04); }
+  100% { transform: translate3d(0, 0, 0) rotate(0deg) scale(1); }
+}
+.drift-slow { animation: drift 14s ease-in-out infinite; }
+.drift-slower { animation: drift 18s ease-in-out infinite; }
+.drift-slowest { animation: drift 24s ease-in-out infinite; }
+
 @keyframes cursor-blink {
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }

@@ -1,22 +1,36 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useMemo } from "react";
+import { useState, useEffect } from "react";
+
+interface Particle {
+  id: number;
+  x: number;
+  y: number;
+  size: number;
+  duration: number;
+  delay: number;
+  drift: number;
+}
 
 const FloatingParticles = () => {
-  const particles = useMemo(
-    () =>
-      Array.from({ length: 18 }, (_, i) => ({
+  const [particles, setParticles] = useState<Particle[]>([]);
+
+  useEffect(() => {
+    setParticles(
+      Array.from({ length: 8 }, (_, i) => ({
         id: i,
         x: Math.random() * 100,
         y: Math.random() * 100,
-        size: 2 + Math.random() * 4,
-        duration: 12 + Math.random() * 14,
-        delay: Math.random() * 8,
+        size: 8 + Math.random() * 10,
+        duration: 10 + Math.random() * 12,
+        delay: 0,
         drift: (Math.random() - 0.5) * 60,
-      })),
-    []
-  );
+      }))
+    );
+  }, []);
+
+  if (particles.length === 0) return null;
 
   return (
     <div className="fixed inset-0 pointer-events-none z-[1] overflow-hidden">
@@ -29,12 +43,12 @@ const FloatingParticles = () => {
             height: p.size,
             left: `${p.x}%`,
             top: `${p.y}%`,
-            backgroundColor: "hsl(120 20% 47% / 0.2)",
+            backgroundColor: "hsl(130 22% 33% / 0.35)",
           }}
           animate={{
             y: [0, -200, 0],
             x: [0, p.drift, 0],
-            opacity: [0, 0.6, 0],
+            opacity: [0.8, 1, 0.8],
           }}
           transition={{
             duration: p.duration,
