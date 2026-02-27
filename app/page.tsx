@@ -6,6 +6,7 @@ import AnimatedGrid from "@/components/animated-grid";
 import FloatingParticles from "@/components/floating-particles";
 import TypewriterName from "@/components/typewriter-name";
 import ScrollReveal from "@/components/scroll-reveal";
+import Image from "next/image";
 
 const projects = [
   {
@@ -40,7 +41,7 @@ export default function Home() {
       <FloatingParticles />
       <div className="relative z-10 max-w-4xl mx-auto px-6 py-16 md:py-24">
         {/* Hero */}
-        <header className="mb-10">
+        <header className="mb-16">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -49,7 +50,7 @@ export default function Home() {
             <TypewriterName onComplete={() => setTypewriterDone(true)} />
           </motion.div>
           <motion.p
-            className="mt-5 text-lg"
+            className="mt-10 text-lg"
             style={{ color: "hsl(150 20% 18% / 0.6)" }}
             initial={{ opacity: 0, x: -60 }}
             animate={typewriterDone ? { opacity: 1, x: 0 } : {}}
@@ -194,16 +195,26 @@ export default function Home() {
         {/* About */}
         <ScrollReveal>
           <section id="about" className="mb-16 scroll-mt-24">
-            <h2
-              className="text-3xl md:text-4xl font-light mb-1"
-              style={{
-                color: "hsl(150 20% 18%)",
-                fontFamily: "'DM Mono', monospace",
-              }}
-            >
-              harrison r. green
-            </h2>
-            <p className="text-base mb-6" style={{ color: "hsl(130 22% 33%)" }}>
+            <div className="flex items-center gap-6 mb-4">
+              <Image
+                src="/portrait.jpg"
+                alt="Harrison Green"
+                width={120}
+                height={120}
+                className="rounded-xl object-cover shrink-0"
+                style={{ width: 120, height: 120 }}
+              />
+              <div>
+                <h2
+                  className="text-3xl md:text-4xl font-light mb-1"
+                  style={{
+                    color: "hsl(150 20% 18%)",
+                    fontFamily: "'DM Mono', monospace",
+                  }}
+                >
+                  harrison r. green
+                </h2>
+                <p className="text-base" style={{ color: "hsl(130 22% 33%)" }}>
               mathematician{" "}
               <span
                 className="inline-block w-1 h-1 rounded-full mx-1.5 align-middle"
@@ -220,7 +231,9 @@ export default function Home() {
                 style={{ backgroundColor: "hsl(130 22% 33%)" }}
               />{" "}
               bilingual storyteller
-            </p>
+                </p>
+              </div>
+            </div>
 
             <p
               className="text-base leading-relaxed mb-8"
