@@ -6,8 +6,8 @@ import Image from "next/image";
 const graphics = [
   { src: "/graphics/pythagoreanidentity.png", top: "14%", left: "4%", size: 360, speed: 0.15 },
   { src: "/graphics/lossexpression.png", top: "5%", right: "3%", size: 320, speed: -0.12 },
-  { src: "/graphics/neuralnetwork.png", top: "45%", left: "6%", size: 380, speed: 0.18 },
-  { src: "/graphics/trebleclef.png", top: "62%", right: "5%", size: 300, speed: -0.1 },
+  { src: "/graphics/neuralnetwork.png", top: "40%", left: "6%", size: 380, speed: 0.18 },
+  { src: "/graphics/trebleclef.png", top: "72%", right: "5%", size: 300, speed: -0.1 },
   { src: "/graphics/bilingualism.png", top: "82%", left: "50%", size: 350, speed: 0.14 },
 ];
 
