@@ -1,16 +1,24 @@
 import type { Metadata } from "next";
-import { DM_Mono } from "next/font/google";
+import { Fraunces, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
-const dmMono = DM_Mono({
-  variable: "--font-dm-mono",
+const fraunces = Fraunces({
+  variable: "--font-fraunces",
   subsets: ["latin"],
-  weight: ["300", "400", "500"],
+  weight: "variable",
+  style: ["normal", "italic"],
+  axes: ["opsz"],
+});
+
+const jetbrainsMono = JetBrains_Mono({
+  variable: "--font-jetbrains-mono",
+  subsets: ["latin"],
+  weight: "variable",
 });
 
 export const metadata: Metadata = {
-  title: "harrison green — portfolio",
-  description: "harrison green — mathematician, musician, ai explorer.",
+  title: "harrison green",
+  description: "mathematician · musician · ai explorer. avenues: the world school, class of 2029.",
   metadataBase: new URL("https://bingst0n.github.io"),
 };
 
@@ -21,10 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${dmMono.variable} antialiased min-h-screen`}
-        style={{ fontFamily: "'DM Mono', monospace" }}
-      >
+      <body className={`${fraunces.variable} ${jetbrainsMono.variable}`}>
         {children}
       </body>
     </html>
