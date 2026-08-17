@@ -10,15 +10,6 @@ export default function Home() {
     <section className="view">
       <p className="blurb">{profile.blurb}</p>
 
-      <div className="edu">
-        <div className="edu-lbl">Education</div>
-        {profile.education.map((e) => (
-          <div className="edu-item" key={e.school}>
-            <b>{e.school}</b> — {e.detail}
-          </div>
-        ))}
-      </div>
-
       <section className="worked">
         <h2>some things i&apos;ve worked on…</h2>
 
