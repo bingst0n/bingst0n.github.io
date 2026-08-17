@@ -26,18 +26,15 @@ export const profile = {
   // Each string becomes its own line under the name.
   titleLines: [
     "Student of the mathematics behind modern AI",
-    "Avenues: The World School, Class of 2029",
+    "High School Student in NYC",
   ],
   // The intro paragraph on the home page.
   blurb:
     "Hi, I'm Harrison! I'm a ninth-grade student in New York City, who is fascinated by the mathematics beneath artificial intelligence, from the calculus of gradient descent to the cross-correlation at the heart of convolutional networks. I write expository papers on what I learn, and build projects to put it into practice. Outside of math, I play guitar, and speak Mandarin.",
   // The "Education" block on the home page (one entry per school).
-  education: [
-    { school: "Avenues: The World School", detail: "New York City · Class of 2029" },
-  ],
   // Contact links shown in the identity header and footer.
   contacts: {
-    location: { label: "New York City", href: "https://www.google.com/maps/place/New+York,+NY" },
+  //  location: { label: "New York City", href: "https://www.google.com/maps/place/New+York,+NY" },
     email: "harrisonrgreen@gmail.com",
     linkedin: { handle: "harrisonrgreen", href: "https://www.linkedin.com/in/harrisonrgreen" },
     github: { handle: "bingst0n", href: "https://github.com/bingst0n" },
